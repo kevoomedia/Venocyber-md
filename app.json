@@ -1,15 +1,15 @@
 {
-  "name": "Venocyber-md",
+  "name": "TOPU-MD",
   "description": "Simple WhatsApp Bot",
-  "logo": "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg",
-  "keywords": ["Venocyber-md", "VENOCYBER", "VENOCYBER MD","VENOCYBER MD wabot","Venocyber","Venocybertech"],
+  "logo": "https://telegra.ph/file/8dace2d24b82568c29e19.jpg",
+  "keywords": ["Topu-md", "TOPU", "TOPU MD","TOPU MD wabot","Topu","Toputech"],
   "success_url": "/",
   "stack": "container",
 
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "VENOCYBER-𝐓𝐄𝐂𝐇",
+      "value": "TOPU-𝐓𝐄𝐂𝐇",
       "required": true
     },
 
@@ -27,7 +27,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required": false,
-      "value": "VENOCYBER-𝐌𝐃"
+      "value": "TOPU-𝐌𝐃"
     },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -62,7 +62,7 @@
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required": false,
-      "value": "available"
+      "value": "composing"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
@@ -86,7 +86,7 @@
     "DISABLE_PM": {
       "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
       "value": "false",
-      "required": false
+      "required": "false"
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
@@ -94,7 +94,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "255625774543"
+      "value": "255673750170"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -106,12 +106,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "VENOCYBER",
+      "value": "TOPU",
       "required": false
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "VENOCYBER BOTS 🧚",
+      "value": "TOPU bots",
       "required": false
     }
   },
